@@ -1,0 +1,51 @@
+.h
+{
+  padding: 25px;
+}
+.car
+{
+  margin: 0,auto;
+  background-image: url(car4.jpg);
+  background-size: cover;
+  height:500px;
+
+}
+.green
+{
+  margin: 0,auto;
+  background-image: url(fgrid.png);
+  height:550px;
+}
+
+.book{
+  margin-left: 700px
+  text-decoration: none;
+}
+.slot
+{
+  margin: 0,auto;
+  background-image: url(path3.jpg);
+  background-size: cover;
+}
+.btn1
+{
+  background-color:white;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+#visible
+{
+  display: none;
+
+}
+.name
+{
+  margin: 0;
+  background-size: cover;
+  height:100px;
+
+}
+body
+{
+  margin:0;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BOOK YOUR SLOT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="html" href="book.html">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="java.js"></script>
+  <!-- <script  src="book.js">  </script> -->
+  <script type="text/javascript">
+      var str = new String("WE GROW TO SERVE YOU BETTER😃");
+      alert(str);
+   </script>
+
+</head>
+ <body>
+   <div class="car"></div>
+   <div class="row">
+    <section  class="col-12">
+
+   <ul class="nav nav-pills nav-fill flex-column flex-sm-row bg-secondary h">
+     <li class="nav-item text-warning">Book your slot</li>
+     <li class="nav-item" type="button" style="color : #3797a4;"><a href="#">Your bookings</a></li>
+     <!-- <li class="nav-item text-white" type="button"><a href="#">Logout</a> </li> -->
+   </ul> </div>   </section>
+ <br> <br>
+  <div class="container">
+    <form     id="form">
+    <fieldset>
+      <div class="form-group">
+        <label class="form-control-label" for="Date:" >Date of your slot :</label>
+      <input class="form-control" id="date" type="date" required/>
+      </div>
+      <div class="form-group">
+        <label class="form-control-label"for="Time:" >At what time :</label>
+      <input class="form-control"  id="time" type="time"  min="09:00"  required/>
+      </div>
+      <div class="form-group">
+        <label class="form-control-label" for="area" >Area</label>
+        <select class="form-control" id="area"  >
+          <option value="0">choose</option>
+        <option value="1">football-ground </option>
+        <option value="2">vaughn-block</option>
+        <option value="3">ECE-block </option>
+        </select>
+      </div>
+    </fieldset>
+      <div class="text-center text-md-left">
+        <button class="btn btn-primary" type="button" onclick="Validate()" >Select Slot </button>
+      </div>
+  </form> </div>
+  <br>
+  <div id="visible">
+    <strong><p style = "text-align: center;  color:#f96d80;" >  HAVE A LOOK AT YOUR SLOT AREA'S WE WILL ASSIGN YOU THE SHORTEST POSSIBLE SLOT AS PER THE OPT AREA </p></strong>
+   <div class="slot">
+    <section  >
+      <br><br>
+      <div  style="height:25vh;" >
+      <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar1"> slot F-1</button>
+      <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar1"> slot F-2</button>
+     <button class="btn btn1  list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar1"> slot F-3</button>
+     <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar1"> slot F-4</button>
+     <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar1"> slot F-5</button>
+      </div>
+      <br> <br>
+      <div  style="height:10vh;">
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar2"> slot V-1</button>
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar2"> slot V-2</button>
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar2"> slot V-3</button>
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar2"> slot V-4</button>
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar2"> slot V-5</button>
+      </div>
+      <br> <br> <br> <br>  <br> <br> <br> <br>
+      <div  style="height:1vh;">
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar3"> slot E-1</button>
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar3"> slot E-2</button>
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar3"> slot E-3</button>
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar3"> slot E-4</button>
+        <button class="btn btn1 list-inline-item col-1 mt-(-5) mb-4 offset-sm-1 " id="ar3"> slot E-5</button>
+      </div>
+    <br> <br>
+      </div>
+ </section>
+ <br>
+ <div class="book">
+   <h4 style="text-align:center;"> <a href="QRcode.html"> CONFIRM </h4>
+ </div>
+ </div>
+</body>s
+</html>
